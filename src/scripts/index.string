@@ -1,0 +1,68 @@
+<div class="m-index">
+  <header>
+ <span>
+   <img src="/myapp2/images/home_head_logo.png">
+</span>
+  </header>
+  <section>
+	<div>
+	<span><img src="/myapp2/images/tou1.png"/></span>
+	<span>
+	<b>无事生非的猴子<img src="/myapp2/images/lv6_3x.png"/></b>
+	<i>分享了53篇食记，获得了111250个赞 </i>	
+	</span>
+
+	
+	<span><img src="/myapp2/images/label_recommend3x.png"/></span>
+	</div>
+	<div>
+		<img src="/myapp2/images/pic1.png" />
+	</div>
+  	<ul>
+  		<li>
+  			<div>
+  				<span><img src="/myapp2/images/tou2.png"/></span>
+					<span>
+					<b>虾姐<img src="/myapp2/images/lv4_3x.png"/></b>
+					<i>来自小公举的推荐</i></span>
+					<span>
+						05-14&nbsp;17:07
+					</span>
+  			</div>
+  			<div></div>
+  			<div></div>
+  			<div></div>
+  			<div></div>
+  		</li>
+  		<li>
+  			
+  		</li>
+  		<li>
+  			
+  		</li>
+  	</ul>
+  </section>
+  <footer>
+	<ul>
+	<li>
+	<i class="yo-ico active">&#xe730;</i>
+	<b>首页</b>
+	</li>
+	<li>
+	<i class="yo-ico">&#xe62b;</i>
+	<b>发现</b>
+	</li>	
+	<li>
+	<i class="yo-ico">&#xe639;</i>
+	</li>
+	<li>
+	<i class="yo-ico">&#xe64d;</i>
+	<b>消息</b>
+	</li>
+	<li>
+	<i class="yo-ico">&#xe61b;</i>
+	<b>我的</b>
+	</li>
+	</ul>
+  </footer>
+</div>

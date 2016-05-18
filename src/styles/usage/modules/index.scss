@@ -1,0 +1,143 @@
+.m-index {
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
+  background: #F0F0F0;
+  header {
+    width: 100%;
+    height: 0.44rem;
+    background: $base-color; 
+     @include flexbox();
+     //给父元素添加
+     @include justify-content();
+     @include align-items();
+    span{
+        display: block;
+        width: 15%;
+      
+       
+        img{width: 100%;}
+    }
+  }
+  section {
+    @include flex(); 
+    width: 100%;
+    padding-top: 0.1rem;
+    ul{
+        display: block;
+        padding-top: 0.1rem;
+        li{
+           div{
+               
+           }            
+        }
+    }
+    div{
+        &:nth-child(1){
+        width: 100%;
+        height: 0.8rem;
+        background: #fff;
+        @include flexbox();
+       
+        span{ 
+                
+          display: block;
+          &:nth-child(1){    
+          @include flex(2);
+          text-align: center;
+          line-height: 0.8rem; 
+          img{width: 60%;
+          }         
+      }
+       &:nth-child(2){
+         @include flex(5);
+//       @include flexbox(column);
+         @include justify-content(center);
+         @include align-items(center);
+        b{
+           line-height: 0.2rem; 
+           display: block;
+           width: 100%; 
+           padding-top: 0.2rem;
+          font-size: 0.1rem;
+           img{
+               width: 0.25rem;
+                padding-left: 0.1rem;
+           }          
+         }
+         i{
+             display: block;
+             color: #C0C0C0;
+             line-height: 0.3rem;
+             font-size: 0.08rem;
+         }
+         
+      }
+       &:nth-child(3){
+        @include flex(1);
+        text-align: center;
+        img{
+            width:0.15rem;
+            
+        }
+      }   
+      }
+      }
+     &:nth-child(2){
+         height: 1rem;
+         padding-top: 0.1rem;
+         @include flexbox();
+         img{width: 100%;}
+     }
+     
+     
+    }
+   
+    
+  }
+  footer {
+    width: 100%;
+    height: .48rem;
+    background: #fff;
+    ul{
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        .active{
+                color: red;
+            }
+        li{
+            
+            @include flex();
+            padding-top:0.05rem; 
+            &:nth-child(3){
+                i{
+              font-size: 0.4rem;
+              line-height: 0.4rem;
+              color:red;
+             
+              
+              }   
+             }
+          b,i{
+              display: block;              
+          }
+          i{
+             font-size: 0.20rem;
+             line-height: 0.24rem;
+             text-align: center;
+             color: #A2A2A2;
+             
+          }
+          b{
+              font-size: 0.12rem;
+              font-weight: normal;
+              text-align: center;
+              line-height: 0.2rem;
+          }
+        }  
+          
+        }
+  }
+}
